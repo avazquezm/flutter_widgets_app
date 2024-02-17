@@ -40,4 +40,10 @@ const List<MenuItem> appMenuItems = [
     link: SnackbarScreen.name,
     icon: Icons.info_outline,
   ),
+  MenuItem(
+    title: 'Animated container',
+    subTitle: 'Stateful widget con animaciones',
+    link: AnimatedScreen.name,
+    icon: Icons.check_box_outline_blank_rounded,
+  ),
 ];
