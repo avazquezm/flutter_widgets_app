@@ -46,4 +46,10 @@ const List<MenuItem> appMenuItems = [
     link: AnimatedScreen.name,
     icon: Icons.check_box_outline_blank_rounded,
   ),
+  MenuItem(
+    title: 'Controles de UI y Tiles',
+    subTitle: 'Varios controles de UI',
+    link: UiControlsScreen.name,
+    icon: Icons.settings,
+  ),
 ];
