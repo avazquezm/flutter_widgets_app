@@ -10,10 +10,8 @@ class UiControlsScreen extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: const Text('Controles de UI y Tiles'),
-
-          // Add your widget code here
         ),
-        body: _UiControlsView());
+        body: const _UiControlsView());
   }
 }
 

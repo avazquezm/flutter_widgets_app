@@ -33,7 +33,7 @@ class _ProgressView extends StatelessWidget {
           const SizedBox(height: 20),
           const Text('Controlled progress indicator'),
           const SizedBox(height: 10),
-          _ControlledProgressIndicator()
+          const _ControlledProgressIndicator()
         ],
       ),
     );

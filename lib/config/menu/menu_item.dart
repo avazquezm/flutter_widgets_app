@@ -52,4 +52,10 @@ const List<MenuItem> appMenuItems = [
     link: UiControlsScreen.name,
     icon: Icons.settings,
   ),
+  MenuItem(
+    title: 'Tutorial de la app',
+    subTitle: 'Aprende a usar la app',
+    link: AppTutorialScreen.name,
+    icon: Icons.school,
+  ),
 ];
