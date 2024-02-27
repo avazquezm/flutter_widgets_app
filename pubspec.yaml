@@ -10,10 +10,11 @@ dependencies:
   animate_do: ^3.3.3
   flutter:
     sdk: flutter
+  flutter_riverpod: ^2.4.10
   go_router: ^13.2.0
 
 dev_dependencies:
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.1
   flutter_test:
     sdk: flutter
 
