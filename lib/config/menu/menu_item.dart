@@ -58,4 +58,10 @@ const List<MenuItem> appMenuItems = [
     link: AppTutorialScreen.name,
     icon: Icons.school,
   ),
+  MenuItem(
+    title: 'Infinite scroll y pull to refresh',
+    subTitle: 'Listas infinitas y recarga de datos',
+    link: InfiniteScrollScreen.name,
+    icon: Icons.list_alt,
+  ),
 ];
