@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:widgets_app/presentation/providers/counter_provider.dart';
+import 'package:widgets_app/presentation/providers/theme_provider.dart';
 
 class CounterScreen extends ConsumerWidget {
   static const name = 'CounterScreen';
@@ -8,7 +9,7 @@ class CounterScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final clickCounter = ref.watch(counterProvider);
+    final int clickCounter = ref.watch(counterProvider);
 
     return Scaffold(
       appBar: AppBar(
@@ -22,7 +23,7 @@ class CounterScreen extends ConsumerWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          // Incrementar el contador
+          ref.read(counterProvider.notifier).state++;
         },
         child: const Icon(Icons.add),
       ),
