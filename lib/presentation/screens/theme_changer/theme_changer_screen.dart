@@ -26,7 +26,7 @@ class ThemeChangerScreen extends ConsumerWidget {
           ),
         ],
       ),
-      body: _ThemeChangerView(),
+      body: const _ThemeChangerView(),
     );
   }
 }
